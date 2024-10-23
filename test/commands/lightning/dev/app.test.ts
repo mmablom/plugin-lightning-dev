@@ -204,7 +204,7 @@ describe('lightning dev app', () => {
       ];
 
       if (browser) {
-        expectedParameters.push('--browser');
+        expectedParameters.push('--browser', browser);
       }
 
       expect(runCmdStub.calledOnce);
